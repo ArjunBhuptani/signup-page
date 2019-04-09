@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: rgba(73, 80, 87, 0.9) !important;
-  background: url("../img/bg-nomads.jpg");
+  background-color: rgba(73, 80, 87, 0.94) !important;
+  background: url("../img/bg-data.jpg");
   background-size: cover;
 }
 
@@ -29,7 +29,7 @@ header.masthead {
   display: -ms-flexbox;
   display: flex;
   color: black;
-  background-color: rgba(73, 80, 87, 0.9) !important;
+  background-color: rgba(73, 80, 87, 0.94) !important;
 }
 
 header.masthead .overlay {
@@ -94,7 +94,7 @@ header.masthead .col-md-10 {
 .features-icons {
   padding-top: 4rem;
   padding-bottom: 6rem;
-  background-color: rgba(73, 80, 87, 0.9) !important;
+  background-color: rgba(73, 80, 87, 0.94) !important;
   background-size: cover;
   color: white;
   padding-bottom: 20rem;
