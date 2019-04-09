@@ -6,6 +6,9 @@
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: rgba(73, 80, 87, 0.9) !important;
+  background: url("../img/bg-content.jpg");
+  background-size: cover;
 }
 
 h1,
@@ -20,16 +23,17 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
-  background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 9rem;
+  padding-bottom: 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  background-color: rgba(73, 80, 87, 0.9) !important;
 }
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
   height: 100%;
   width: 100%;
   top: 0;
@@ -37,14 +41,35 @@ header.masthead .overlay {
   opacity: 0.3;
 }
 
-header.masthead h1 {
-  font-size: 2rem;
+header.masthead p {
+  color: white;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'BenchNine';
+}
+
+header.masthead img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 43%;
+  top: 20px;
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+
+header.masthead .col-md-10 {
+  padding-top: 5rem;
+  padding-bottom: 0;
 }
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 10rem;
+    padding-bottom: 0rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -67,8 +92,33 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  background-color: rgba(73, 80, 87, 0.9) !important;
+  background-size: cover;
+  color: white;
+  padding-bottom: 20rem;
+}
+
+.features-icons h1 {
+  padding-top: 2rem;
+  color: white;
+  font-weight: bold;
+  font-family: 'BenchNine';
+}
+
+.features-icons .row {
+  padding-bottom: 4rem;
+}
+
+.features-icons .form-row {
+  margin-left: 15%;
+  width: 70%;
+}
+
+.features-icons .btn {
+  background-color: #6200ee !important;
+  border-color: #6200ee;
 }
 
 .features-icons .features-icons-item {
@@ -104,16 +154,12 @@ header.masthead h1 {
 
 .call-to-action {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
-  background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
 
 .call-to-action .overlay {
   position: absolute;
-  background-color: #212529;
   height: 100%;
   width: 100%;
   top: 0;
@@ -124,4 +170,5 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background-color: rgba(73, 80, 87, 0.8) !important;
 }

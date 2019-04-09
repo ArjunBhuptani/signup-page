@@ -1,5 +1,8 @@
 body {
   @include body-font;
+  background-color: rgba(73, 80, 87, 0.9) !important;
+  background: url("../img/bg-content.jpg"); //../img/bg-wallet.jpg");
+  @include background-cover;
 }
 
 h1,
