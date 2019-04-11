@@ -42,11 +42,11 @@ header.masthead .overlay {
 }
 
 header.masthead img {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   position: absolute;
-  left: 43%;
-  top: 20px;
+  left: 46%;
+  top: 65px;
   -webkit-filter: brightness(0) invert(1);
   filter: brightness(0) invert(1);
 }
